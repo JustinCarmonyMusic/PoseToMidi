@@ -1,0 +1,41 @@
+{
+  "name": "posetomidi",
+  "version": "1.0.0",
+  "description": "Using Pose Estimation to send MIDI CC Events",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "server": "node --harmony index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustinCarmonyMusic/PoseToMidi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JustinCarmonyMusic/PoseToMidi/issues"
+  },
+  "homepage": "https://github.com/JustinCarmonyMusic/PoseToMidi#readme",
+  "dependencies": {
+    "@tensorflow-models/posenet": "^2.2.1",
+    "@tensorflow/tfjs": "^2.0.0",
+    "@tensorflow/tfjs-converter": "^2.0.0",
+    "@tensorflow/tfjs-core": "^2.0.0",
+    "dat.gui": "^0.7.7",
+    "easymidi": "^1.1.2",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "stats.js": "^0.17.0",
+    "ws": "^7.3.0"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.1",
+    "utf-8-validate": "^5.0.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
