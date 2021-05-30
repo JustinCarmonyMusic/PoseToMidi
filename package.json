@@ -28,7 +28,7 @@
     "express": "^4.17.1",
     "lodash": "^4.17.15",
     "stats.js": "^0.17.0",
-    "ws": "^7.3.0"
+    "ws": "^7.4.6"
   },
   "optionalDependencies": {
     "bufferutil": "^4.0.1",
